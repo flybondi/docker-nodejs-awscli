@@ -1,4 +1,4 @@
-FROM circleci/node:10.15.3
+FROM circleci/node:10.16.0
 
 RUN sudo apt-get update && sudo apt-get install python python-pip python-dev build-essential && \
     curl -s -o- -L https://yarnpkg.com/install.sh | bash && sudo rm -rf /usr/local/bin/yarn && \
